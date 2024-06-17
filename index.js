@@ -61,4 +61,11 @@ function(){
     }   
 }
 )
+var like =document.getElementById('red')
 
+like.addEventListener('click',function(){
+    changeImage();
+})
+function changeImage(){
+    image.src = './image/redheart.png';
+}
