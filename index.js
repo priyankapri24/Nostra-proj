@@ -1,9 +1,11 @@
 // discountbox
 var discountbox=document.querySelector('.discountbox')
 var closead =document.getElementById('closead')
+var navbar=document.querySelector('.navbar')
 
 closead.addEventListener('click',function(){
     discountbox.style.display='none'
+    navbar.style.top='0px'
 })
 
 // // sidenav
