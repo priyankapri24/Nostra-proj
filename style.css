@@ -299,11 +299,12 @@ body {
  @media screen and (max-width:700px) {
     .new button{
         position: absolute;
-        left: 5%;
-        top: 52%;
+        left: 10%;
+        top: 60%;
         padding-top: 5px;
         padding-bottom: 5px;
         border-radius: 10px;
+        font-size: 7px;
         padding-left: 5px;
         padding-right: 5px;
         border: none;
