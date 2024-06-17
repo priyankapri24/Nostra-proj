@@ -43,10 +43,12 @@ body {
     padding-bottom: 1vw;
     padding-left: 20px;
     padding-right: 20px;
-    z-index: 9;
-    position: sticky;
-    
-    top: 0;
+    z-index: 20;
+    position: fixed;
+    top:0px;
+    left: 0;
+    right: 0;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 .navbar ul{
     display: flex;
@@ -77,15 +79,14 @@ body {
 .sidenav{
     background-color: #1D232C;
     width: 50%;
-    height: 100vh;
+    height: 100%;
     position:fixed;
     top: 0;
-    z-index: 15;
+    z-index: 21;
     color: white;
     padding: 20px;
-    transition: all 4s;
-    
-   left: 0;
+  transition: all 1s;
+  left: -60%;
     
 }
 .sidenavbar a{
@@ -551,7 +552,7 @@ body {
     margin: auto;
     padding: 5vw;
     padding-right: 10vw;
-    margin-top: 10px;
+    margin-top: 40px;
   }
 
   .contact h2 {

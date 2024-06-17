@@ -6,19 +6,42 @@ closead.addEventListener('click',function(){
     discountbox.style.display='none'
 })
 
-// sidenav
-var sidenav =document.querySelector('.sidenav')
-var navbar__goggle=document.querySelector('.navbar__goggle')
-var closesidenav=document.querySelector('.closesidenav')
-sidenav.style.display='none'
+// // sidenav
+// var sidenav =document.querySelector('.sidenav')
+// var navbar__goggle=document.querySelector('.navbar__goggle')
+// var closesidenav=document.querySelector('.closesidenav')
+// sidenav.style.display='none'
 
-navbar__goggle.addEventListener('click', function(){
-    sidenav.style.display='block'
+// navbar__goggle.addEventListener('click', function(){
+//     sidenav.style.display='block'
+
+// })
+// closesidenav.addEventListener('click',function(){
+//     sidenav.style.display='none'
+// })
+
+
+
+let icon=document.querySelector(".navbar__goggle")
+let side_nav=document.querySelector(".sidenav")
+let close_nav=document.querySelector(".closesidenav")
+
+
+icon.addEventListener("click",()=>{
+
+    side_nav.style.left="0%"
 
 })
-closesidenav.addEventListener('click',function(){
-    sidenav.style.display='none'
+
+close_nav.addEventListener("click",()=>{
+
+    side_nav.style.left="-60%"
+    
 })
+
+
+
+
 
 // slider
 var leftbtn = document.getElementById("leftbtn")
