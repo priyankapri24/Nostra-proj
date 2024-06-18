@@ -1,6 +1,7 @@
 
 
-# Nostra [https://priyankapri24.github.io/Nostraproj/]
+# Nostra
+ [https://priyankapri24.github.io/Nostraproj/]
 
 Building Nostra has been an incredibly rewarding journey. This responsive website is a growth in web development, utilizing a variety of modern technologies and techniques. Here's a glimpse of what went into creating it:
 
